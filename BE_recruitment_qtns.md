@@ -1,6 +1,6 @@
 1.  Identify one problem in the below code block, will this code compile? Discuss the related Rust feature regarding the problem you have identified, why does Rust choose to include this feature? A few sentences are good enough.
 
-    ```
+    ```rust
         let data = vec![1, 2, 3];
         let my_ref_cell = RefCell::new(69);
         let ref_to_ref_cell = &my_ref_cell;
